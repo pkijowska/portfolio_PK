@@ -307,21 +307,27 @@ body.about-on .cover {
 
 .button1 {
   position: absolute;
-  left: 50%;
+  left: 38%;
   top: 50%;
+    height: 40px;
+    width: 100px;
+    border-radius: 100px;
 }
 .button2 {
   position: absolute;
-  left: 42%;
+  left: 53%;
   top: 50%;
+  height: 40px;
+  width: 100px;
+  border-radius: 100px;
 }
 
-.button2 {
+.button3 {
   position: absolute;
   right: 50%;
   top: 50%;
 }
-.button3 {
+.button4 {
   position: absolute;
   right: 42%;
   top: 50%;
