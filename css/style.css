@@ -312,14 +312,22 @@ body.about-on .cover {
     height: 40px;
     width: 100px;
     border-radius: 100px;
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
 }
 .button2 {
   position: absolute;
   left: 53%;
   top: 50%;
+    font-size: 15px;
   height: 40px;
   width: 100px;
   border-radius: 100px;
+  background-color: black;
+  font-weight: bolder;
+  color: white;
 }
 
 .button3 {
