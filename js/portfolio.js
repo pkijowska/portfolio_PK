@@ -49,3 +49,11 @@ animationTrigger.click(function(){
             });
 
 timelineClick.to(contentIcon, 0.6, {opacity: 0, y: 10}, {opacity: 1, y: 0}).to(contentIcon, 0.6, {opacity: 0, y: 10});
+
+
+$(".about-text").on('click', function () {
+  $("body").addClass("about-on");
+});
+$(".about-close").on('click', function () {
+  $("body").removeClass("about-on");
+});
