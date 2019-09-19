@@ -216,7 +216,7 @@ h3 {
 	background-position: center;
 	background-size: 30px 30px;
 	background-image: url('http://www.ivang-design.com/svg-load/portfolio/left.svg');
-	opacity: 0.2;
+	opacity: 0.5;
 	-webkit-transition: all 200ms linear;
 	transition: all 200ms linear;
 }
@@ -279,11 +279,11 @@ body.about-on .cover {
 	display: block;
 	margin: 0 auto;
 	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  object-fit: cover;
 }
 .about-section p span {
-    font-family: 'Dancing Script', cursive;
+  padding-left: 30px;
 	letter-spacing: 1px;
-	color: #866BAF;
 	font-size: 25px;
 	font-weight: 400;
 }
@@ -339,4 +339,13 @@ body.about-on .cover {
   position: absolute;
   right: 42%;
   top: 50%;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+ flex-grow: 1;
 }
