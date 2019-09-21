@@ -25,10 +25,9 @@ h3 {
   font-family: Georgia;
   font-style: italic;
   text-transform: none;
-  padding-bottom: 20px;
   color: white;
   font-weight: bold;
-    padding-left: 260px;
+
 }
 .post-info p {
   display: inline-block;
@@ -89,9 +88,12 @@ h3 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.4) 47%, rgba(0, 0, 0, 0.9) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 47%, rgba(0, 0, 0, 0.8) 100%);
   z-index: -1;
 }
+
+
+
 .show-content {
   position: absolute;
   bottom: 0;
@@ -307,12 +309,12 @@ body.about-on .cover {
 
 .button1 {
   position: absolute;
-  left: 38%;
+  left: 30%;
   top: 50%;
-    height: 40px;
-    width: 100px;
+    height: 45px;
+    width: 120px;
     border-radius: 100px;
-    background-color: black;
+    background-color: grey;
     font-size: 15px;
     color: white;
     font-weight: bolder;
@@ -322,10 +324,10 @@ body.about-on .cover {
   left: 53%;
   top: 50%;
     font-size: 15px;
-  height: 40px;
-  width: 100px;
+  height: 45px;
+  width: 120px;
   border-radius: 100px;
-  background-color: black;
+  background-color: grey;
   font-weight: bolder;
   color: white;
 }
@@ -337,7 +339,7 @@ body.about-on .cover {
 }
 .button4 {
   position: absolute;
-  right: 42%;
+  right: 44%;
   top: 50%;
 }
 
