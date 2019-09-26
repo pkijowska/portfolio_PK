@@ -410,11 +410,11 @@ h5 {
 
 .main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .main-about {
-  flex: 0 0 45%;
+  flex: 0 0 60%;
 }
 
 .about-me-main {
@@ -426,14 +426,22 @@ h5 {
 .skills-main {
   display: flex;
   flex-direction: column;
-
+  flex: 0 0 5%;
+  align-items: center;
+}
+.skills-name {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 5%;
+      align-items: center;
 }
 
 .hidden {
   visibility: hidden;
 }
-.skills-main-sub {
-  display: flex;
-  flex-direction: column;
-  flex: 0 0 15%;
+
+
+.header-font {
+font-size: .875rem;
+    text-align: center;
 }
