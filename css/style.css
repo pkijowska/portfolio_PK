@@ -392,8 +392,8 @@ align-items: center;
 }
 
 .center_img {
-  width: 100px;
-    height: 100px;
+  width: 140px;
+    height: 140px;
     object-fit: cover;
   border-radius: 100%;
   border-style: solid;
@@ -401,6 +401,7 @@ border-width: 1px;
 border-color: rgba(0,0,0,.125);
 padding: 5px;
 background-color: white;
+margin-top: 15px;
 }
 
 h5 {
@@ -415,12 +416,15 @@ h5 {
 
 .main-about {
   flex: 0 0 60%;
+
+
 }
 
 .about-me-main {
   font-size: 15px;
   color: black;
   font-weight: normal;
+    margin-left: -22px;
 }
 
 .skills-main {
@@ -444,4 +448,10 @@ h5 {
 .header-font {
 font-size: .875rem;
     text-align: center;
+}
+
+.center_img:hover {
+  position: relative;
+  z-index: 3;
+  	background-image: url('https://res.cloudinary.com/deppqxba7/image/upload/v1569749108/71384067_811306082605518_4280639753251979264_n_cqkosg.jpg');
 }
