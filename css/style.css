@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -169,7 +171,7 @@ h3 {
 }
 
 .content-item:hover {
-  transform: scale(1.01);
+
  transition: all .8s ease-in-out;
 }
 
@@ -343,6 +345,7 @@ body.about-on .cover {
 h1 {
   font-size: 35px;
   text-align: center;
+  color: dimgray;
 }
 
 .linkedin {
@@ -393,7 +396,7 @@ background-image: url(https://res.cloudinary.com/deppqxba7/image/upload/v1569751
 }
 
 .center_img {
-  width: 170px;
+  /* width: 170px; */
     height: 170px;
     object-fit: cover;
   border-radius: 100%;
@@ -401,13 +404,13 @@ background-image: url(https://res.cloudinary.com/deppqxba7/image/upload/v1569751
 border-width: 1px;
 border-color: rgba(0,0,0,.125);
 padding: 5px;
-background-color: palegoldenrod;;
+background-color: white;
 margin-top: 15px;
 }
 
 h5 {
   font-size: 24px;
-  color: grey;
+  color: dimgrey;
 }
 
 .main {
@@ -422,10 +425,12 @@ h5 {
 }
 
 .about-me-main {
-  font-size: 15px;
-  color: black;
+  font-size: 19px;
   font-weight: normal;
-    margin-left: -22px;
+  margin-left: -22px;
+  margin-right: 45px;
+  font-family: 'Comfortaa', cursive;
+    color: dimgray:
 }
 
 .skills-main {
